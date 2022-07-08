@@ -1,0 +1,39 @@
+$lime: #bce070;
+$dark-green: #06311a;
+$white: #fbfbfb;
+
+@font-face { 
+  font-family: Catamaran;
+  src: url("../static/Catamaran-Regular.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: FiraMedium;
+  src: url("../static/FiraSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face { 
+  font-family: FiraRegular;
+  src: url("../static/FiraSans-Regular.ttf") format("truetype");
+  font-weight: 400;	
+}
+
+h1 { 
+  font-family: FiraMedium;
+  font-size: 40px;
+  color: $white;
+}
+
+p { 
+  font-family: FiraRegular;
+  color: $white;
+}
+
+button {
+    background-color: $dark-green;
+    border-radius: 6px;
+    border-color: $dark-green;
+    color: $white;
+}
